@@ -6,7 +6,7 @@ import Header from "../components/Header";
 import Programa from "../components/Programa";
 import SeccionHero from "../components/SeccionHero";
 import SobreNosotros from "../components/SobreNosotros";
-import Testimonios from '../components/Testimonios';
+
 import Syllabus from '../components/Syllabus';
 import Beneficios from '../components/Beneficios';
 import Tabs from '../components/Inscribirme'
@@ -21,8 +21,9 @@ const MainApp = () => {
       <SobreNosotros />
       <Programa />
       <Syllabus />
-      <Testimonios />
       <Beneficios />
+      
+     
       <Tabs/>
     </>
   );
