@@ -1,2 +1,19 @@
-
-
+#boxSection {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  #boxOne {
+    flex: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
+  
+  #boxTwo {
+    flex: 1;
+    max-height: 300px; /* Ajusta esto según el diseño */
+    overflow-y: auto;
+  }
