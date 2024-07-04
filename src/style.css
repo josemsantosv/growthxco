@@ -55,3 +55,6 @@ footer {
     line-height: 300px;
     line-height: 95vh;
 }
+.max-h-0 {
+    max-height: 0;
+  }

@@ -8,7 +8,9 @@
   list-style-type: disc;
   list-style-position: inside;
 }
-
+.max-h-0 {
+  max-height: 0;
+}
 .anton-sc-regular {
   font-family: "Anton SC", sans-serif;
   font-weight: 400;
