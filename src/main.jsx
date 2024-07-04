@@ -9,8 +9,9 @@ import SobreNosotros from "../components/SobreNosotros";
 import Instructores from "../components/Instructores";
 import Testimonios from "../components/Testimonios";
 import Footer from "../components/Footer";
+import Acordeon from "../components/Acordeon";
 
-import Syllabus from "../components/Syllabus";
+
 import Beneficios from "../components/Beneficios";
 import Tabs from "../components/Inscribirme";
 
@@ -21,12 +22,12 @@ const MainApp = () => {
       <SeccionHero />
       <SobreNosotros />
       <Programa />      
-      <Syllabus />
+      
       
       <Beneficios />
       <Instructores/>
       <Testimonios />
-      
+     <Acordeon/>
       <Tabs />
       <Footer/>
     </>
