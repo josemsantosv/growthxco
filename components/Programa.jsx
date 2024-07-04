@@ -2,8 +2,8 @@
 const Programa = () => {
     return (
       <section className="py-24 text-black">
- <div className="flex justify-center items-center  bg-black mb-16">
-  <div class=" mx-auto w-4/5 grid grid-cols-1 gap-10 sm:grid-cols-3 bg-black">
+ <div className="flex justify-center items-center  bg-black mb-16 max-w-7xl px-3 m-auto">
+  <div class=" mx-auto w-full grid grid-cols-1 gap-10 sm:grid-cols-3 bg-black">
 
     <div class="bg-black rounded-lg overflow-hidden shadow-md border">
       

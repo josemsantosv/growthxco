@@ -1,7 +1,7 @@
 const SeccionHero = () => {
     return (
       <section className="py-20 HeroSection text-white py-20 HeroSection text-white flex items-center justify-items-center h-[100vh]">
-      <div className="flex flex-col items-center w-4/5 mx-auto justify-items-center">
+      <div className="max-w-7xl px-3 m-auto flex flex-col items-center w-4/5 mx-auto justify-items-center">
         <h5 className="">Explorá el Startup Program disponible en GrowthX.</h5>
         <h2 className="mb-10 mt-7 text-8xl">GrowthX College</h2>
         <p className="mb-10 text-2xl text-center">Nuestra misión es proporcionarte las herramientas necesarias de los mejores expertos en LATAM para aprender, mejorar habilidades y ofrecer soluciones a las problemáticas del mundo como marketers de crecimiento, gestores de producto o Fundadores de Startups de nivel Mundial.</p>
