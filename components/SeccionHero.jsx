@@ -1,6 +1,6 @@
 const SeccionHero = () => {
     return (
-      <section className="py-20 HeroSection text-white">
+      <section className="py-20 HeroSection text-white py-20 HeroSection text-white flex items-center justify-items-center h-[100vh]">
       <div className="flex flex-col items-center w-4/5 mx-auto justify-items-center">
         <h5 className="">Explorá el Startup Program disponible en GrowthX.</h5>
         <h2 className="mb-10 mt-7 text-8xl">GrowthX College</h2>
