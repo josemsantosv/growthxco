@@ -1,0 +1,33 @@
+.container {
+    
+    position: relative;
+  }
+  
+  .col-left {
+    width: 50%;
+    display: inline-block;
+    outline: 1px solid black;
+    vertical-align: top;
+    height: 100%;
+  }
+  
+  .col-right {
+    width: 50%;
+    display: inline-block;
+    outline: 1px solid black;
+    vertical-align: top;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    height: 140px;
+    width: 100%px;
+    background: #fff;
+  }
+  
+  .sidebar.lock {
+    position: absolute;
+    top: auto;
+  }

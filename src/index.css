@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-#listDisc  {
+#listDisc {
   list-style-type: disc;
   list-style-position: inside;
+}
+
+.anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 html,
@@ -13,12 +21,31 @@ body,
   height: 100%;
   font-family: 'Poppins', sans-serif;
 }
+
 ::marker {
   color: skyblue !important
 }
+
 :root {
-    --bg-default: #000000; /* Fondo negro por defecto */
-  }
+  --bg-default: #000000;
+  /* Fondo negro por defecto */
+}
+
+html::-webkit-scrollbar {
+  width: 12px;
+}
+html::-webkit-scrollbar-track {
+  background: #030016;
+}
+html::-webkit-scrollbar-thumb {
+  background: #1cb9de;
+}
+
+
+.slick-next:before, .slick-prev:before{
+  color: #030016;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -84,33 +111,34 @@ body,
 }
 
 body {
-    background-color: var(--bg-default); /* Aplica el color de fondo por defecto */
-  }
+  background-color: var(--bg-default);
+  /* Aplica el color de fondo por defecto */
+}
 
-  .tabs {
-    display: flex;
-    border-bottom: 1px solid #ccc;
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ccc;
 }
 
 .tab {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .tab-button {
-    background: none;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    outline: none;
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
 }
 
 .tab-button.active {
-    border-bottom: 2px solid blue; 
+  border-bottom: 2px solid blue;
 }
 
 .tab-content {
-    padding: 20px;
-    color: white;
+  padding: 20px;
+  color: white;
 }

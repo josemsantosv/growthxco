@@ -1,35 +1,39 @@
-import React, { useEffect } from 'react';
-import ReactDOM from 'react-dom/client';
+import React, { useEffect } from "react";
+import ReactDOM from "react-dom/client";
 
-import './index.css';
+import "./index.css";
 import Header from "../components/Header";
 import Programa from "../components/Programa";
 import SeccionHero from "../components/SeccionHero";
 import SobreNosotros from "../components/SobreNosotros";
+import Instructores from "../components/Instructores";
+import Testimonios from "../components/Testimonios";
+import Footer from "../components/Footer";
 
-import Syllabus from '../components/Syllabus';
-import Beneficios from '../components/Beneficios';
-import Tabs from '../components/Inscribirme'
+import Syllabus from "../components/Syllabus";
+import Beneficios from "../components/Beneficios";
+import Tabs from "../components/Inscribirme";
 
 const MainApp = () => {
-
-
   return (
     <>
       <Header />
       <SeccionHero />
       <SobreNosotros />
-      <Programa />
+      <Programa />      
       <Syllabus />
-      <Beneficios />
       
-     
-      <Tabs/>
+      <Beneficios />
+      <Instructores/>
+      <Testimonios />
+      
+      <Tabs />
+      <Footer/>
     </>
   );
 };
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <MainApp />
   </React.StrictMode>
