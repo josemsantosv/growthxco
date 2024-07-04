@@ -2,12 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+#listDisc  {
+  list-style-type: disc;
+  list-style-position: inside;
+}
 
 html,
 body,
 :root {
   height: 100%;
   font-family: 'Poppins', sans-serif;
+}
+::marker {
+  color: skyblue !important
 }
 :root {
     --bg-default: #000000; /* Fondo negro por defecto */

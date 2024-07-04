@@ -1,0 +1,29 @@
+
+
+const Beneficios = () => {
+  return (
+    <section className="py-24 text-white bg-black">
+    <div class="w-2/3 mx-auto p-4 border border-grey-200 rounded-lg shadow sm:p-8 dark:bg-grey-800 dark:border-grey-700">
+      <h5 className="text-4xl text-center font-bold ">Beneficios del Programa</h5>
+      <br />
+      <br />
+      <p className="text-lg">Nuestro programa ofrece una combinación única de conocimientos teóricos y experiencia práctica, asegurando que estés bien preparado para el mundo de las startups. Los beneficios clave incluyen:</p>
+      <br></br>
+      <ul className="list-disc list-inside space-y-4" id="listDisc">
+        <li>Currículo Integral: Cobertura de todos los aspectos críticos para construir y hacer crecer una startup.</li>
+        <li>Habilidades Prácticas: Enfoque en aplicaciones reales con ejercicios prácticos y estudios de caso.</li>
+        <li>Interacción con Expertos: Acceso a líderes de la industria y fundadores de startups exitosas.</li>
+        <li>Oportunidades de Networking: Conexiones con pares, mentores e inversores dentro del ecosistema startup.</li>
+        <li>Herramientas Avanzadas: Formación en herramientas y tecnologías esenciales utilizadas por las principales startups a nivel mundial.</li>
+        <li>Aprendizaje Flexible: Horarios de aprendizaje en línea y flexibles para acomodar diferentes zonas horarias y compromisos profesionales.</li>
+      </ul>
+    
+    
+    </div>
+
+  </section>
+    
+  );
+};
+
+export default Beneficios;

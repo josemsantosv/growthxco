@@ -3,13 +3,13 @@ import '../src/App.css'
 const Syllabus = () => {
   return (
     <section className="py-24 text-black bg-white">
-      <div className="flex col justify-center gap-10" id='boxSection'>
-        <div id='boxOne'> 
+      <div className="flex col justify-center gap-10" id=''>
+        <div id=''> 
           <button>Mes 1</button>
           <p className="text-4xl font-semibold ">Fundamentos y Growth Marketing</p>
         </div>
         
-        <div id='boxTwo'>
+        <div id=''>
           <h2>Semana 1-2: Introducción General</h2>
           <p>Introducción al Mundo Startup</p>
           <p>Roles y Responsabilidades en una Startup</p>
@@ -26,7 +26,6 @@ const Syllabus = () => {
           <p>Medición y Atribución (Google Tag Manager, Google Analytics 4)</p>
         </div>
       </div>
-
 
 
     </section>
