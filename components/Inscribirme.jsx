@@ -7,10 +7,12 @@ function Tabs() {
   const [tabContent, setTabContent] = useState({
     tab1: (
       <ul className="list-disc list-inside text-white space-y-5">
-        <div class="flex justify-center">
-          <div class="p-4 w-1/3 rounded-lg overflow-hidden shadow-md border h-60 text-center">
-            <p class="text-white mt-2 h-20 text-5xl">"4400 USD"</p>
-            <p>En un pago</p>
+        <div class="flex justify-center my-10">
+          <div class="p-4 w-2/5 rounded-2xl overflow-hidden shadow-md border border-gray-500 h-60 text-center flex flex-col items-center justify-center gap-3">
+          <p>Individual</p>
+            <p class="text-white mt-2 text-5xl font-semibold">4400 USD<span className="text-3xl">/mes</span></p>
+            <p className="text-gray-400">En un pago</p>
+            <p className="text-sm italic text-gray-400">Valor total: 2.250 USD</p>
 
            
           </div>
@@ -31,14 +33,17 @@ function Tabs() {
     ),
     tab2: (
       <ul className="list-disc list-inside text-white space-y-5">
-        <div class="flex justify-center">
-          <div class="p-4 w-1/3 rounded-lg overflow-hidden shadow-md border ">
-            <p class="text-white mt-2 h-20">"1200 USD" <span>/mes</span></p>
+        <div class="flex justify-center my-10">
+          <div class="p-4 w-2/5 rounded-2xl overflow-hidden shadow-md border border-gray-500 h-60 text-center flex flex-col items-center justify-center gap-3">
+          <p>Individual</p>
+            <p class="text-white mt-2 text-5xl font-semibold">1200 USD<span className="text-3xl">/mes</span></p>
+            <p className="text-gray-400">En un pago</p>
+            <p className="text-sm italic text-gray-400">Valor total: 2.250 USD</p>
 
-        
+           
           </div>
         </div>
-
+        <h2 className="text-center text-2xl font-bold py-5">¿Qué incluye?</h2>
         <li className="text-xl">Acceso por tiempo ilimitado al contenido del programa.</li>
         <li className="text-xl">Acceso a 16 masterclass con emprendedores top.</li>
         <li className="text-xl">Mentoría de Expertos líderes en la industria (Q&As semanales).</li>
@@ -59,16 +64,16 @@ function Tabs() {
   };
 
   return (
-    <div className="w-2/3 mx-auto mt-6 p-6 bg-grey rounded-lg shadow-lg">
+    <div className="w-2/3 mx-auto mt-5 p-10 bg-grey rounded-2xl shadow-lg">
       <div className="flex justify-center space-x-4">
         <button
-          className={`px-16 text-base py-4 rounded-full border border-verde ${activeTab === "tab1" ? "bg-verde text-grey" : "bg-black text-verde"}`}
+          className={`px-16 text-base py-4 rounded-full border border-verde ${activeTab === "tab1" ? "bg-verde text-grey" : "bg-grey text-verde"}`}
           onClick={() => handleTabClick("tab1")}
         >
           En un pago
         </button>
         <button
-          className={`px-16 text-base py-4 rounded-full border border-verde ${activeTab === "tab2" ? "bg-verde text-grey" : "bg-black text-verde"}`}
+          className={`px-16 text-base py-4 rounded-full border border-verde ${activeTab === "tab2" ? "bg-verde text-grey" : "bg-grey text-verde"}`}
           onClick={() => handleTabClick("tab2")}
         >
           En ‘x’ cuotas
