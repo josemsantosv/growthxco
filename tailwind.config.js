@@ -19,7 +19,8 @@ export default {
       colors: {
         black: '#030016', 
         skyblue: '#1cb9de', 
-        grey: '#B7B7B7', 
+        grey: '#1d1d1d', 
+		verde: '#d4ff78'
 
 		
 			  },

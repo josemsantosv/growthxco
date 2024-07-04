@@ -8,12 +8,11 @@ import SeccionHero from "../components/SeccionHero";
 import SobreNosotros from "../components/SobreNosotros";
 import Testimonios from '../components/Testimonios';
 import Syllabus from '../components/Syllabus';
-import { scrollSidebar } from '../components/scrollSidebar';
+import Beneficios from '../components/Beneficios';
+import Tabs from '../components/Inscribirme'
 
 const MainApp = () => {
-  useEffect(() => {
-    scrollSidebar();
-  }, []);
+
 
   return (
     <>
@@ -23,6 +22,8 @@ const MainApp = () => {
       <Programa />
       <Syllabus />
       <Testimonios />
+      <Beneficios />
+      <Tabs/>
     </>
   );
 };
