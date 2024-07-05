@@ -61,15 +61,15 @@ const Card = ({ title, description, image }) => {
 
 function Instructores() {
   return (
-    <section className="border-t-[1px] border-[#6d6d6d] bg-[#030016] py-20 HeroSection text-white py-20 HeroSection text-white flex items-center justify-items-center">
+    <section id='instructores' className="border-t-[1px] border-[#6d6d6d] bg-[#030016] py-20 HeroSection text-white py-20 HeroSection text-white flex items-center justify-items-center">
       <div className="max-w-7xl px-3 m-auto flex flex-col items-center mx-auto justify-items-center">
         <h5 className="text-2xl text-[#d4ff78]">
           #Nuestros
         </h5>
-        <h2 className="mb-10 mt-7 text-9xl font-bold text-center anton-sc-regular">
+        <h2 className="mb-10 mt-7 text-4xl md:text-9xl font-bold text-center anton-sc-regular">
         Instructores
         </h2>          
-        <div className='grid md:grid-cols-3 gap-8 py-12'>
+        <div className='grid md:grid-cols-3 gap-8 py-12 px-8 md:p-0'>
             {data.map((item) => (
                 <Card  key={item.id} {...item} />
             ))}               
@@ -78,7 +78,7 @@ function Instructores() {
         <h2 className="text-center text-lg font-semibold leading-8 text-white">
             Empresas y Universidades Asociadas
         </h2>
-        <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+        <div className="mx-auto px-8 md:px-0 mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <img
             className="col-span-2 w-full object-contain lg:col-span-1"
             src="https://cdn.prod.website-files.com/65c3bc2125baf9326a2181b1/65c501782fe111f228dc433f_Newtopia.png"

@@ -28,7 +28,7 @@ const Footer = () => {
             <img src="/img/logo.png" className="w-20" alt="Logo"  />
             <div className="flex items-center gap-5">
               {data.map((item) => (	
-                <a href={item.href} className="text-white text-base">
+                <a key={item.id} href={item.href} className="text-white text-base">
                     <img src={item.logo} alt="Logo" class="logo w-10" />
                 </a>
               ))}                         

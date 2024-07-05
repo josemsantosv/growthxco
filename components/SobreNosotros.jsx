@@ -1,20 +1,20 @@
 const SobreNosotros = () => {
   return (
     <>
-    <section className="bg-white border-t-[1px] pt-20 HeroSection text-white HeroSection text-white flex items-center justify-items-center">
+    <section id="nosotros" className="bg-white pt-20 HeroSection text-white HeroSection text-white flex items-center justify-items-center">
       <div className="max-w-7xl px-3 m-auto flex flex-col items-center w-4/5 mx-auto justify-items-center">
         <h5 className="text-2xl text-[#030016]">
           #Acerca de
         </h5>
-        <h2 className="text-[#030016] mb-10 mt-7 text-9xl font-bold text-center anton-sc-regular">
+        <h2 className="text-[#030016] mb-10 mt-7 text-4xl md:text-9xl font-bold text-center anton-sc-regular">
         GrowthX Startup College
         </h2>  
                
       </div>
     </section>
 
-    <section className="py-24 text-black bg-white">
-      <div class="max-w-7xl mx-auto px-8 py-8 bg-white border border-grey-200 rounded-lg shadow ">                        
+    <section className="py-12 md:py-24 text-black bg-white">
+      <div class="max-w-7xl mx-auto px-8 py-8 bg-white border-0 md:border border-grey-200 rounded-lg shadow text-justify md:start">                        
       <p className="mb-10 text-xl">
         En <span className="font-bold">GrowthX College</span>, nuestra misión es proporcionarte las herramientas necesarias de los mejores expertos en LATAM para aprender, mejorar habilidades y ofrecer soluciones a las problemáticas del mundo como marketers de crecimiento, gestores de producto o Fundadores de Startups de nivel Mundial.
         </p> 

@@ -12,14 +12,40 @@ function Testimonios() {
     autoplaySpeed: 2000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
-    <div className="bg-white">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <section id="testimonios" className="bg-white">
+      <div className="max-w-7xl mx-auto py-12 px-8 md:px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h5 className="text-2xl text-[#030016]">#Nuestros</h5>
-          <h2 className=" text-[#030016] mb-10 mt-7 text-9xl font-bold text-center anton-sc-regular">
+          <h2 className=" text-[#030016] mb-10 mt-7 text-4xl md:text-9xl font-bold text-center anton-sc-regular">
             Testimonios
           </h2>
         </div>
@@ -136,7 +162,7 @@ function Testimonios() {
           </Slider>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

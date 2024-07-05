@@ -8,7 +8,7 @@ function Tabs() {
       <div class="flex justify-center my-10">
                 <div class="p-4 w-3/5 rounded-2xl overflow-hidden shadow-md border border-gray-500 h-60 text-center flex flex-col items-center justify-center gap-3">
                   <p class="text-red-500 line-through text-2xl">8.000 USD</p>
-                  <p class="text-white mt-2 text-5xl font-semibold">
+                  <p class="text-white mt-2 text-2xl md:text-5xl font-semibold">
                     4.400 USD
                   </p>
                   <p className="text-gray-400">En un pago</p>
@@ -18,7 +18,7 @@ function Tabs() {
     tab2: (
       <div class="flex justify-center my-10">
           <div class="p-4 w-3/5 rounded-2xl overflow-hidden shadow-md border border-gray-500 h-60 text-center flex flex-col items-center justify-center gap-3">
-            <p class="text-white mt-2 text-5xl font-semibold">
+            <p class="text-white mt-2 text-2xl md:text-5xl font-semibold">
               1200 USD<span className="text-3xl">/mes</span>
             </p>
             <p className="text-gray-400">durante 6 meses</p>
@@ -37,14 +37,14 @@ function Tabs() {
   return (
     <div className="bg-[#030016]">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center text-5xl font-medium text-white py-12 tracking-wider	">
+        <h2 className="text-center text-2xl md:text-5xl font-medium text-white py-12 tracking-wider	">
           Seleccionaremos a las personas que consideremos más dispuestas a
           lograr resultados reales.
         </h2>
-        <div className="w-2/3 mx-auto p-10 bg-grey rounded-2xl shadow-lg">
+        <div className="md:w-2/3 mx-auto p-6 md:p-10 bg-grey rounded-2xl shadow-lg">
           <div className="flex justify-center space-x-4">
             <button
-              className={`px-16 text-base py-4 rounded-full border border-[#1cb9de] ${
+              className={`px-4 md:px-16 text-base py-4 rounded-full border border-[#1cb9de] ${
                 activeTab === "tab1"
                   ? "bg-[#17bae0] text-grey"
                   : "bg-grey text-[#17bae0]"
@@ -54,7 +54,7 @@ function Tabs() {
               En un pago
             </button>
             <button
-              className={`px-16 text-base py-4 rounded-full border border-[#1cb9de] ${
+              className={`px-4 md:px-16 text-base py-4 rounded-full border border-[#1cb9de] ${
                 activeTab === "tab2"
                   ? "bg-[#17bae0] text-grey"
                   : "bg-grey text-[#17bae0]"

@@ -28,11 +28,11 @@ const Programa = () => {
   ]
 
   return (
-    <section className="bg-[#030016] py-24 text-black">
-      <div className="flex justify-center items-center  bg-black mb-16 max-w-7xl px-3 m-auto">
+    <section id="programa" className="bg-[#030016] py-24 text-black">
+      <div className="flex justify-center items-center  bg-black mb-16 max-w-7xl px-12 md:px-3 m-auto">
         <div class=" mx-auto w-full grid grid-cols-1 gap-10 sm:grid-cols-3 bg-black">
           {data.map((item) => (
-            <div class="bg-black rounded-lg overflow-hidden shadow-md border">
+            <div key={item.id} class="bg-black rounded-lg overflow-hidden shadow-md border">
               <div class="py-12 px-4 text-center">
                 <div className="flex justify-center pb-8">
                   <div dangerouslySetInnerHTML={{ __html: item.icon }} />
