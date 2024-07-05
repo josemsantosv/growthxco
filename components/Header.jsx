@@ -27,7 +27,7 @@ const Header = () => {
     <header>
       <nav className="border-gray-600 bg-[#030016] border-solid border-b fixed z-20 w-full">
         <div className="flex flex-wrap items-center justify-between mx-auto p-4 max-w-7xl px-3 m-auto">
-          <img src="/img/logo.png" alt="Logo" class="logo w-20" />
+          <img src="https://res.cloudinary.com/dswzcvwem/image/upload/v1720119539/growth/logo_y9bej1.png" alt="Logo" class="logo w-20" />
           <div className="flex items-center gap-6">
             {data.map((item) => (	
               <a href={item.href} className="text-white text-base">{item.title}</a>
