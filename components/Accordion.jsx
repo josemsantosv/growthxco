@@ -12,15 +12,55 @@ export default function Example() {
         Temario por Semana
       </h2>
       <div className="mx-auto w-full max-w-5xl divide-y divide-white/5 rounded-xl bg-[#030016]">
+        
         <Disclosure as="div" className="p-6" defaultOpen={true}>
           <DisclosureButton className="group flex w-full items-center justify-between">
-            <span className="md:md:text-xl font-medium text-white group-data-[hover]:text-white/80">
-              Mes 1: Fundamentos y Growth Marketing
+            <span className="md:md:text-xl font-medium text-[#f5f5dc] group-data-[hover]:text-[#f5f5dc]/80">
+              Introducción 3 carreras
             </span>
             <ChevronDownIcon className="size-5 fill-white/60 group-data-[hover]:fill-white/50 group-data-[open]:rotate-180" />
           </DisclosureButton>
-          <DisclosurePanel className="mt-2 text-sm/5 text-white/50">
-            <div class="px-5 py-4 text-white">
+          <DisclosurePanel className="mt-2 text-sm/5 text-[#f5f5dc]/50">
+            <div class="px-5 py-4 text-[#f5f5dc]">
+              <ul className="space-y-3 text-base list-disc list-inside">
+                <h2 className="font-semibold">
+                Introducción a todo el programa
+                </h2>
+                <li>Introducción al programa, cómo va a conformarse.</li>
+                <li>Actividades y sesiones en vivo.</li>
+                <li>Comunidad y Networking.</li>
+                <li>Clases de consultas y prácitcas.</li>
+              </ul>
+              <ul className="mt-5 space-y-3 text-base list-disc list-inside">
+                <h2 className="font-semibold">
+                Introducción al mundo Startup
+                </h2>
+                <li>¿Qué es una Startup?</li>
+                <li>Fases y etapas de las Startups.</li>
+                <li>Introducción a las rondas de financiamiento.</li>
+                <li>Casos de éxitos y unicornios.</li>
+              </ul>
+              <ul className="mt-5 space-y-3 text-base list-disc list-inside">
+                <h2 className="font-semibold">
+                Introducción a roles del programa ¿Cómo se relaciona cada rol con el mundo Startup?
+                </h2>
+                <li>Introducción al programa de Growth Manager ¿Qué se va a ver? ¿Cuál es su rol?</li>
+                <li>Introducción al programa de Product Director ¿Qué se va a ver? ¿Cuál es su rol?</li>
+                <li>Introducción al programa Founder Way ¿Qué se va a ver? ¿Cuál es su rol?</li>
+              </ul>                            
+            </div>
+          </DisclosurePanel>
+        </Disclosure>
+
+        <Disclosure as="div" className="p-6">
+          <DisclosureButton className="group flex w-full items-center justify-between">
+            <span className="md:md:text-xl font-medium text-[#f5f5dc] group-data-[hover]:text-[#f5f5dc]/80">
+              Growth General
+            </span>
+            <ChevronDownIcon className="size-5 fill-white/60 group-data-[hover]:fill-white/50 group-data-[open]:rotate-180" />
+          </DisclosureButton>
+          <DisclosurePanel className="mt-2 text-sm/5 text-[#f5f5dc]/50">
+            <div class="px-5 py-4 text-[#f5f5dc]">
               <ul className="space-y-3 text-base list-disc list-inside">
                 <h2 className="font-semibold">
                   Semana 1-2: Introducción General
@@ -66,13 +106,14 @@ export default function Example() {
 
         <Disclosure as="div" className="p-6">
           <DisclosureButton className="group flex w-full items-center justify-between">
-            <span className="md:text-xl font-medium text-white group-data-[hover]:text-white/80">
-              Mes 2: Gestión de Producto y Habilidades de Liderazgo
+            <span className="md:text-xl font-medium text-[#f5f5dc] group-data-[hover]:text-[#f5f5dc]/80">
+            Product Manager
+
             </span>
             <ChevronDownIcon className="size-5 fill-white/60 group-data-[hover]:fill-white/50 group-data-[open]:rotate-180" />
           </DisclosureButton>
-          <DisclosurePanel className="mt-2 text-sm/5 text-white/50">
-            <div class="px-5 py-4 text-white">
+          <DisclosurePanel className="mt-2 text-sm/5 text-[#f5f5dc]/50">
+            <div class="px-5 py-4 text-[#f5f5dc]">
               <ul className="space-y-3 text-base list-disc list-inside ">
                 <h2 className="font-semibold">
                   Semana 9-10: Gestión de Producto (Parte 1)
@@ -104,13 +145,13 @@ export default function Example() {
 
         <Disclosure as="div" className="p-6">
           <DisclosureButton className="group flex w-full items-center justify-between">
-            <span className="md:text-xl font-medium text-white group-data-[hover]:text-white/80">
-              Mes 3: Herramientas Esenciales y Ventas
+            <span className="md:text-xl font-medium text-[#f5f5dc] group-data-[hover]:text-[#f5f5dc]/80">
+            Founder Way
             </span>
             <ChevronDownIcon className="size-5 fill-white/60 group-data-[hover]:fill-white/50 group-data-[open]:rotate-180" />
           </DisclosureButton>
-          <DisclosurePanel className="mt-2 text-sm/5 text-white/50">
-            <div class="px-5 py-4 text-white">
+          <DisclosurePanel className="mt-2 text-sm/5 text-[#f5f5dc]/50">
+            <div class="px-5 py-4 text-[#f5f5dc]">
               <ul className="space-y-3 text-base list-disc list-inside ">
                 <h2 className="font-semibold">
                   Semana 15-16: Herramientas y Habilidades Esenciales
@@ -138,50 +179,7 @@ export default function Example() {
             </div>
           </DisclosurePanel>
         </Disclosure>
-
-        <Disclosure as="div" className="p-6">
-          <DisclosureButton className="group flex w-full items-center justify-between">
-            <span className="md:text-xl font-medium text-white group-data-[hover]:text-white/80">
-              Mes 4: Experiencia Práctica y Proyecto Final
-            </span>
-            <ChevronDownIcon className="size-5 fill-white/60 group-data-[hover]:fill-white/50 group-data-[open]:rotate-180" />
-          </DisclosureButton>
-          <DisclosurePanel className="mt-2 text-sm/5 text-white/50">
-            <div class="px-5 py-4 text-white">
-              <ul className="space-y-3 text-base list-disc list-inside ">
-                <h2 className="font-semibold">
-                  Semana 21-22: Experiencia Práctica en Ventas
-                </h2>
-                <li>Simulaciones de Venta</li>
-                <li>Casos Prácticos y Estudios de Caso</li>
-                <li>Talleres con Expertos en Ventas</li>
-              </ul>
-              <ul className="mt-5 space-y-3 text-base list-disc list-inside ">
-                <h2 className="font-semibold">Semana 23-24: Proyecto Final</h2>
-                <li>Revisión de lo Aprendido</li>
-                <li>Planificación y Desarrollo de Proyectos Individuales</li>
-                <li>Presentación Final de Proyectos</li>
-              </ul>
-              <ul className="mt-5 space-y-3 text-base list-disc list-inside ">
-                <h2 className="font-bold">Día 120: Graduación</h2>
-                <h2 className="font-semibold">
-                  Presentación del Proyecto Personal:
-                </h2>
-                <li>
-                  Investigación sobre una Startup a la que el estudiante desea
-                  ingresar.
-                </li>
-                <li>
-                  Análisis y Plan de Ingreso como entregable sujeto a evaluación
-                </li>
-                <li>
-                  Los proyectos con mejor puntuación serán enviados directamente
-                  a los Founders por GrowthX College.
-                </li>
-              </ul>
-            </div>
-          </DisclosurePanel>
-        </Disclosure>
+        
       </div>
     </section>
   );

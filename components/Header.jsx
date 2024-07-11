@@ -117,21 +117,21 @@ const Header = () => {
   return (
     <header>
       <nav className="border-gray-600 bg-[#030016] border-solid border-b fixed z-20 w-full">
-        <div className="flex flex-wrap items-center justify-between mx-auto p-4 max-w-7xl px-3 m-auto">
+        <div className="flex flex-wrap items-center justify-between mx-auto max-w-7xl px-3 m-auto">
           <a href="#">
             <img
-              src="https://res.cloudinary.com/dswzcvwem/image/upload/v1720119539/growth/logo_y9bej1.png"
+              src="https://res.cloudinary.com/dswzcvwem/image/upload/v1720678241/growth/nuevologo_zafgkm.png"
               alt="Logo"
-              className="logo w-20"
+              className="logo w-24"
             />
           </a>
           <div className="hidden md:flex flex items-center gap-6">
             {data.map((item) => (
-              <a key={item.id} href={item.href} className="text-white text-base">
+              <a key={item.id} href={item.href} className="text-[#f5f5dc] text-base">
                 {item.title}
               </a>
             ))}
-            <button className="btn bg-[#17bae0] px-10 rounded-lg py-3 text-base text-white">
+            <button className="btn bg-[#4C1C24] px-10 rounded-lg py-3 text-base text-[#f5f5dc]">
               Aplica ahora
             </button>
           </div>

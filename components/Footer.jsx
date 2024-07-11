@@ -25,7 +25,7 @@ const Footer = () => {
       <footer>
         <nav className="bg-[#030016] w-full">
           <div className="flex flex-wrap items-center justify-between mx-auto p-8 max-w-7xl m-auto">
-            <img src="/img/logo.png" className="w-20" alt="Logo"  />
+            <img src="https://res.cloudinary.com/dswzcvwem/image/upload/v1720678241/growth/nuevologo_zafgkm.png" className="w-24" alt="Logo"  />
             <div className="flex items-center gap-5">
               {data.map((item) => (	
                 <a key={item.id} href={item.href} className="text-white text-base">

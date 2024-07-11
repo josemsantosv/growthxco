@@ -2,7 +2,7 @@
 
 const Beneficios = () => {
   return (
-    <section className="py-24 text-white bg-black">
+    <section className="py-24 text-[#f5f5dc] bg-black">
     <div class="w-2/3 mx-auto p-4 rounded-lg shadow sm:p-8 dark:bg-grey-800 dark:border-grey-700">
       <h5 className=" mb-10 mt-7 text-4xl md:text-6xl font-bold text-center anton-sc-regular">Beneficios del Programa</h5>
       <br />

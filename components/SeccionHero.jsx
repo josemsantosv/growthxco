@@ -5,25 +5,21 @@ const SeccionHero = () => {
     <div className="bg-[#030016] h-[100vh]">
       {/* <Header/> */}
       <div className="HeroSection h-full text-white py-20 HeroSection text-white flex items-center justify-items-center">
-        <div className="max-w-7xl px-8 md:px-3 m-auto flex flex-col items-center md:w-4/5 mx-auto justify-items-center">
-        <h5 className="md:text-2xl text-[#d4ff78] text-center">
+        <div className="max-w-7xl text-[#f5f5dc] px-8 md:px-3 m-auto flex flex-col items-start mx-auto justify-items-center">
+        {/* <h5 className="md:text-2xl">
           #Explorá el Startup Program disponible en GrowthX.
-        </h5>
-        <h2 className="mb-10 mt-7 text-4xl md:text-9xl font-bold anton-sc-regular">
-          GrowthX College
+        </h5> */}
+        <h2 className="mb-10 mt-7 text-4xl md:text-8xl font-bold anton-sc-regular">
+        Explorá Startup College disponible en GrowthX
         </h2>
-        <p className="mb-10 md:text-2xl text-justify md:text-center">
-          Nuestra misión es proporcionarte las herramientas necesarias de los
-          mejores expertos en LATAM para aprender, mejorar habilidades y ofrecer
-          soluciones a las problemáticas del mundo como marketers de
-          crecimiento, gestores de producto o Fundadores de Startups de nivel
-          Mundial.
+        <p className="mb-10 md:text-2xl text-justify md:text-left">
+        Queremos proporcionarte las herramientas necesarias de los mejores expertos para aprender, mejorar habilidades y ofrecer soluciones a las problemáticas del mundo como Growth Marketer, Product Manager o Fundador de tu propia Startup.
         </p>
         <button
           type="button"
-          class="btn bg-[#17bae0] px-10 rounded-lg py-3 text-base text-white"
+          class="btn bg-[#4C1C24] px-10 rounded-lg py-3 text-base text-[#f5f5dc]"
         >
-          Aplica ahora
+          INSCRIBIRME AHORA
         </button>
         <div className="py-10 flex items-center gap-8">
           {/* <div className="flex -space-x-2">

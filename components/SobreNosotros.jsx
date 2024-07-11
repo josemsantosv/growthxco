@@ -3,11 +3,11 @@ const SobreNosotros = () => {
     <>
     <section id="nosotros" className="bg-white pt-20 HeroSection text-white HeroSection text-white flex items-center justify-items-center">
       <div className="max-w-7xl px-3 m-auto flex flex-col items-center w-4/5 mx-auto justify-items-center">
-        <h5 className="text-2xl text-[#030016]">
+        {/* <h5 className="text-2xl text-[#030016]">
           #Acerca de
-        </h5>
-        <h2 className="text-[#030016] mb-10 mt-7 text-4xl md:text-9xl font-bold text-center anton-sc-regular">
-        GrowthX Startup College
+        </h5> */}
+        <h2 className="text-[#030016] mb-10 mt-7 text-4xl md:text-8xl font-bold text-center anton-sc-regular">
+        Acerca de GrowthX Startup College
         </h2>  
                
       </div>
@@ -61,6 +61,21 @@ const SobreNosotros = () => {
           utilizar el crecimiento como una brújula para tomar casi todas las
           decisiones que enfrentes.”
         </p>
+        <br />
+        <div className="pt-10 flex flex items-center gap-6 md:gap-24 justify-center">
+          <div className="flex items-center">
+            <svg className="w-8 h-8" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#4C1C24"><path d="M5 15L5.95039 4.54568C5.97849 4.23663 6.23761 4 6.54793 4H20.343C20.6958 4 20.9725 4.30295 20.9405 4.65432L20.0496 14.4543C20.0215 14.7634 19.7624 15 19.4521 15H5ZM5 15L4.4 21" stroke="#4C1C24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            <p className="font-semibold text-xl px-4 text-[#4C1C24]">15 DE NOVIEMBRE DE 2024</p>
+          </div>
+          <div className="flex items-center">
+            <svg className="w-8 h-8" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#4C1C24"><path d="M15 4V2M15 4V6M15 4H10.5M3 10V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V10H3Z" stroke="#4C1C24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 10V6C3 4.89543 3.89543 4 5 4H7" stroke="#4C1C24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 2V6" stroke="#4C1C24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 10V6C21 4.89543 20.1046 4 19 4H18.5" stroke="#4C1C24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            <p className="font-semibold text-xl px-4 text-[#4C1C24]">4 MESES</p>
+          </div>
+          <div className="flex items-center">
+            <svg className="w-8 h-8" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#4C1C24"><path d="M12 6L12 12L18 12" stroke="#4C1C24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#4C1C24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            <p className="font-semibold text-xl px-4 text-[#4C1C24]">8 A 10 HORAS POR SEMANA</p>
+          </div>
+        </div>
       </div>
     </section>
     </>

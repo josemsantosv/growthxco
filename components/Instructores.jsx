@@ -52,8 +52,8 @@ const Card = ({ title, description, image }) => {
                     <img className='rounded-md group-hover:scale-110 duration-500 ease-in-out grayscale group-hover:grayscale-0' src={image} alt="Instructores" />
                 </div>
                 <div className="pt-8">
-                    <h3 className='text-2xl text-white pb-2'>{title}</h3>
-                    <p className='text-gray-400'>{description}</p>
+                    <h3 className='text-2xl text-[#f5f5dc] pb-2'>{title}</h3>
+                    <p className='text-[#f5f5dc]'>{description}</p>
                 </div>
             </div> 
     )   
@@ -63,10 +63,10 @@ function Instructores() {
   return (
     <section id='instructores' className="border-t-[1px] border-[#6d6d6d] bg-[#030016] py-20 HeroSection text-white py-20 HeroSection text-white flex items-center justify-items-center">
       <div className="max-w-7xl px-3 m-auto flex flex-col items-center mx-auto justify-items-center">
-        <h5 className="text-2xl text-[#d4ff78]">
+        <h5 className="text-2xl text-[#f5f5dc]">
           #Nuestros
         </h5>
-        <h2 className="mb-10 mt-7 text-4xl md:text-9xl font-bold text-center anton-sc-regular">
+        <h2 className="mb-10 mt-7 text-4xl md:text-9xl font-bold text-center anton-sc-regular text-[#f5f5dc]">
         Instructores
         </h2>          
         <div className='grid md:grid-cols-3 gap-8 py-12 px-8 md:p-0'>
@@ -75,7 +75,7 @@ function Instructores() {
             ))}               
         </div>  
         <div className="py-20">
-        <h2 className="text-center text-lg font-semibold leading-8 text-white">
+        <h2 className="text-center text-lg font-semibold leading-8 text-[#f5f5dc]">
             Empresas y Universidades Asociadas
         </h2>
         <div className="mx-auto px-8 md:px-0 mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
