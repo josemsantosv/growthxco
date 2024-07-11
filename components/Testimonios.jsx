@@ -44,27 +44,29 @@ function Testimonios() {
     <section id="testimonios" className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-8 md:px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h5 className="text-2xl text-[#030016]">#Nuestros</h5>
-          <h2 className=" text-[#030016] mb-10 mt-7 text-4xl md:text-9xl font-bold text-center anton-sc-regular">
+          {/* <h5 className="text-2xl text-[#030016]">#Nuestros</h5> */}
+          <h2 className=" text-[#030016] mb-10 mt-7 text-4xl md:text-8xl font-bold text-center anton-sc-regular">
             Testimonios
           </h2>
+          <p className="text-lg text-center mb-10">
+          Nuestros graduados han alcanzado un éxito significativo en sus carreras. Lee sus historias y descubre cómo GrowthX Startup College ha transformado sus trayectorias profesionales.
+        </p>
+
         </div>
         <div className="slider-container my-20">
           <Slider {...settings}>
             <div>
               <figure class="snip1192">
                 <blockquote>
-                  Calvin: Sometimes when I'm talking with others, my words can't
-                  keep up with my thoughts. I wonder why we think faster than we
-                  speak. Hobbes: Probably so we can think twice.{" "}
+                Logré cerrar un acuerdo con Hevy para coordinar el área de marketing y ventas, obteniendo un sueldo de 2.000 USD al mes. Este puesto me permitió combinar mis dos pasiones: fitness y tecnología.
                 </blockquote>
                 <div class="author">
                   <img
-                    src="https://cdn.prod.website-files.com/65c39c8aee4ff1f31a820ce3/65cfa3d969458582102f9a9b_Alex%20Dantart-p-500.png"
+                    src="https://res.cloudinary.com/dswzcvwem/image/upload/v1720723328/growth/tomas_bmtfo4.jpg"
                     alt="sq-sample1"
                   />
                   <h5 className="text-[#030016]">
-                    Pelican Steve <span> LittleSnippets</span>
+                    Tomás Boismene {/* <span> LittleSnippets</span> */}
                   </h5>
                 </div>
               </figure>
@@ -72,17 +74,15 @@ function Testimonios() {
             <div>
             <figure class="snip1192">
                 <blockquote>
-                  Calvin: Sometimes when I'm talking with others, my words can't
-                  keep up with my thoughts. I wonder why we think faster than we
-                  speak. Hobbes: Probably so we can think twice.{" "}
+                Me ayudaron demasiado, pude acceder a una oportunidad en Hallow. Comencé como prueba durante tres meses y ahora estoy contratado, desempeñándome en la gestión de campañas de publicidad y marketing de influencers.
                 </blockquote>
                 <div class="author">
                   <img
-                    src="https://cdn.prod.website-files.com/65c39c8aee4ff1f31a820ce3/65cfa3d969458582102f9a9b_Alex%20Dantart-p-500.png"
+                    src="https://res.cloudinary.com/dswzcvwem/image/upload/v1720723328/growth/papazaian_yws46s.jpg"
                     alt="sq-sample1"
                   />
                   <h5 className="text-[#030016]">
-                    Pelican Steve <span> LittleSnippets</span>
+                  Tomás Papazian {/* <span> LittleSnippets</span> */}
                   </h5>
                 </div>
               </figure>
@@ -90,17 +90,16 @@ function Testimonios() {
             <div>
             <figure class="snip1192">
                 <blockquote>
-                  Calvin: Sometimes when I'm talking with others, my words can't
-                  keep up with my thoughts. I wonder why we think faster than we
-                  speak. Hobbes: Probably so we can think twice.{" "}
+                Literalmente me cambió la vida, me llevo un círculo de contactos y amigos muy importante, y además, comencé a trabajar como Director de ventas en America Business
                 </blockquote>
                 <div class="author">
                   <img
-                    src="https://cdn.prod.website-files.com/65c39c8aee4ff1f31a820ce3/65cfa3d969458582102f9a9b_Alex%20Dantart-p-500.png"
+                    src="https://res.cloudinary.com/dswzcvwem/image/upload/v1720723328/growth/juan_mibcoc.jpg"
                     alt="sq-sample1"
                   />
                   <h5 className="text-[#030016]">
-                    Pelican Steve <span> LittleSnippets</span>
+                  Juan Cruz Fernandez
+                  {/* <span> LittleSnippets</span> */}
                   </h5>
                 </div>
               </figure>
@@ -108,17 +107,15 @@ function Testimonios() {
             <div>
             <figure class="snip1192">
                 <blockquote>
-                  Calvin: Sometimes when I'm talking with others, my words can't
-                  keep up with my thoughts. I wonder why we think faster than we
-                  speak. Hobbes: Probably so we can think twice.{" "}
+                Gracias a GrowthX, adquirí los conocimientos y habilidades necesarios para comenzar a trabajar en el área de Growth de Hallow, lo que me permitió dejar los dos trabajos que tenía en ese momento.
                 </blockquote>
                 <div class="author">
                   <img
-                    src="https://cdn.prod.website-files.com/65c39c8aee4ff1f31a820ce3/65cfa3d969458582102f9a9b_Alex%20Dantart-p-500.png"
+                    src="https://res.cloudinary.com/dswzcvwem/image/upload/v1720723329/growth/echavarria_nimtc2.jpg"
                     alt="sq-sample1"
                   />
                   <h5 className="text-[#030016]">
-                    Pelican Steve <span> LittleSnippets</span>
+                  Valentín Echavarría{/* <span> LittleSnippets</span> */}
                   </h5>
                 </div>
               </figure>
@@ -126,35 +123,36 @@ function Testimonios() {
             <div>
             <figure class="snip1192">
                 <blockquote>
-                  Calvin: Sometimes when I'm talking with others, my words can't
-                  keep up with my thoughts. I wonder why we think faster than we
-                  speak. Hobbes: Probably so we can think twice.{" "}
+                Me llevo una gran red de contactos y amigos fundamentales en mi viaje emprendedor. <br />
+                Me brindaron el asesoramiento y las herramientas necesarias para lanzar Tribes, una startup que une mis tres pasiones: tecnología, comunidades y viajes.
                 </blockquote>
                 <div class="author">
                   <img
-                    src="https://cdn.prod.website-files.com/65c39c8aee4ff1f31a820ce3/65cfa3d969458582102f9a9b_Alex%20Dantart-p-500.png"
+                    src="https://res.cloudinary.com/dswzcvwem/image/upload/v1720723328/growth/bruno_m1vsba.jpg"
                     alt="sq-sample1"
                   />
                   <h5 className="text-[#030016]">
-                    Pelican Steve <span> LittleSnippets</span>
+                  Bruno Pardiñas {/* <span> LittleSnippets</span> */}
                   </h5>
                 </div>
               </figure>
             </div>
             <div>
-            <figure class="snip1192">
-                <blockquote>
-                  Calvin: Sometimes when I'm talking with others, my words can't
-                  keep up with my thoughts. I wonder why we think faster than we
-                  speak. Hobbes: Probably so we can think twice.{" "}
+            <figure className="snip1192">
+                <blockquote className="h-full">
+                Está semana me llegaron dos ofertas de startups,
+                Una, periodo de prueba pago (1k) x un mes y dependiendo cómo salga contrato full time 60k-150,000 USD x año,
+                La otra, periodo de prueba gratis, y si sale bien contrato x 4k al mes y un 10%  de lo que genere de profit.
+                Ingles, saber venderse y mandar muchos mails, todavía no caigo en los números
+
                 </blockquote>
                 <div class="author">
                   <img
-                    src="https://cdn.prod.website-files.com/65c39c8aee4ff1f31a820ce3/65cfa3d969458582102f9a9b_Alex%20Dantart-p-500.png"
+                    src="https://res.cloudinary.com/dswzcvwem/image/upload/v1720723328/growth/mati_vdjoql.jpg"
                     alt="sq-sample1"
                   />
                   <h5 className="text-[#030016]">
-                    Pelican Steve <span> LittleSnippets</span>
+                  Matias orbegozo {/* <span> LittleSnippets</span> */}
                   </h5>
                 </div>
               </figure>

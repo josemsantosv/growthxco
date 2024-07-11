@@ -10,12 +10,12 @@ const Beneficios = () => {
       <p className="text-lg">Nuestro programa ofrece una combinación única de conocimientos teóricos y experiencia práctica, asegurando que estés bien preparado para el mundo de las startups. Los beneficios clave incluyen:</p>
       <br></br>
       <ul className="list-disc list-inside space-y-4 text-justify md:text-left" id="listDisc">
-        <li className="text-base">Currículo Integral: Cobertura de todos los aspectos críticos para construir y hacer crecer una startup.</li>
-        <li className="text-base">Habilidades Prácticas: Enfoque en aplicaciones reales con ejercicios prácticos y estudios de caso.</li>
-        <li className="text-base">Interacción con Expertos: Acceso a líderes de la industria y fundadores de startups exitosas.</li>
-        <li className="text-base">Oportunidades de Networking: Conexiones con pares, mentores e inversores dentro del ecosistema startup.</li>
-        <li className="text-base">Herramientas Avanzadas: Formación en herramientas y tecnologías esenciales utilizadas por las principales startups a nivel mundial.</li>
-        <li className="text-base">Aprendizaje Flexible: Horarios de aprendizaje en línea y flexibles para acomodar diferentes zonas horarias y compromisos profesionales.</li>
+        <li className="text-base"><b>Currículo Integral:</b> Cobertura de todos los aspectos críticos para construir y hacer crecer una startup.</li>
+        <li className="text-base"><b>Habilidades Prácticas:</b> Enfoque en aplicaciones reales con ejercicios prácticos y estudios de caso.</li>
+        <li className="text-base"><b>Interacción con </b>Expertos: Acceso a líderes de la industria y fundadores de startups exitosas.</li>
+        <li className="text-base"><b>Oportunidades de </b>Networking: Conexiones con pares, mentores e inversores dentro del ecosistema startup.</li>
+        <li className="text-base"><b>Herramientas Avanzadas:</b> Formación en herramientas y tecnologías esenciales utilizadas por las principales startups a nivel mundial.</li>
+        <li className="text-base"><b>Aprendizaje Flexible:</b> Horarios de aprendizaje en línea y flexibles para acomodar diferentes zonas horarias y compromisos profesionales.</li>
       </ul>
     
     
